@@ -76,7 +76,7 @@ def print_board():
       print(pieces[stone] + ' ', end='')
     print()
   print(' ' + files + '\n')
-  print(' Moves:', moves)
+  print('=')
 
 def set_board_size(command):
   if int(command.split(' ')[-1]) != 19:
